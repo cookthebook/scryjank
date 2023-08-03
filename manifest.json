@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "Jank Scryfall Enhancer",
+    "description": "Add a check mark to cards on the Jank Bulk list while browsing Scryfall",
+    "version": "0.1",
+    "icons": {
+        "128": "media/logo.png"
+    },
+    "browser_action": {
+        "default_icon": "media/logo.png",
+        "default_title": "Jank Scryfall Enhancer",
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [
+        {
+            "matches": [ "https://scryfall.com/*" ],
+            "js": [ "bulk-list-checker.js" ]
+        }
+    ],
+    "permissions": [
+        "https://aarongc.com/*"
+    ]
+}
