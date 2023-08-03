@@ -2,9 +2,19 @@
 This project is a Chrome browser extension that lets you quickly see if a card
 is on the Jank Bulk list or not while browsing [Scryfall](https://scryfall.com).
 
-You can either download this repository and add it as an unpacked extension
-([instructions](https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/#load-unpacked))
-or install the packed version, available as a download in the releases section.
+
+## Chrome / Brave / Edge etc.
+To use this extension with chrome, you must download this repository either as a
+zip file and extract the contents or cloning through git. Then, you can add it to
+the extensions tab with developer mode on -
+[Instructions](https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/#load-unpacked)
+
+Chrome store listing TBA.
+
+## Firefox
+
+The extension has been submitted to the add-on developer hub and is awaiting
+approval. Release TBD.
 
 ## What Does it Do?
 
